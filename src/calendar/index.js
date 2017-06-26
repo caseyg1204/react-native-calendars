@@ -22,7 +22,7 @@ class Calendar extends Component {
     markedDates: PropTypes.object,
 
     // Specify style for calendar container element. Default = {}
-    style: ViewPropTypes.style,
+    // style: ViewPropTypes.style,
 
     selected: PropTypes.array,
 
