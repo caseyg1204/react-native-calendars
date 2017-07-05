@@ -14,14 +14,15 @@ export default function styleConstructor(theme={}) {
       fontSize: 16,
       fontWeight: '300',
       color: appStyle.dayTextColor,
-      backgroundColor: 'rgba(255, 255, 255, 0)'
+      backgroundColor: 'rgba(255, 255, 255, 0)',
+      fontFamily: 'Lato',
     },
     alignedText: {
       marginTop: Platform.OS === 'android' ? 4 : 6
     },
     selected: {
       backgroundColor: appStyle.selectedDayBackgroundColor,
-      borderRadius: 16
+      // borderRadius: 16
     },
     todayText: {
       color: appStyle.todayTextColor
